@@ -1,36 +1,24 @@
 # adafruit-wisdom
 
-FIXME: description
-
-## Installation
-
-Download from http://example.com/FIXME.
+Pulls one of the quotes at random from the footer of http://www.adafruit.com
 
 ## Usage
 
-FIXME: explanation
+    $ lein run
 
-    $ java -jar adafruit-wisdom-0.1.0-standalone.jar [args]
+or
 
-## Options
-
-FIXME: listing of options this app accepts.
+    $ lein uberjar
+    $ java -jar target/adafruit-wisdom-0.8.0-SNAPSHOT-standalone.jar
 
 ## Examples
 
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+    $ lein run
+    "If A equals success, then the formula is A equals X plus Y plus Z. X is work. Y is play. Z is keep your mouth shut" - Albert Einstein
 
 ## License
 
-Copyright © 2016 FIXME
+Copyright © 2016 Neil Okamoto
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
