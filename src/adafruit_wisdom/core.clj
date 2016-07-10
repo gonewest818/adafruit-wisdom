@@ -12,7 +12,7 @@
                   h/parse
                   h/as-hickory)
         quote (-> (s/select (s/and (s/tag :span)
-                                   (s/or (s/class "quotes-large") 
+                                   (s/or (s/class "quotes-large")
                                          (s/class "quotes-medium")))
                             fruit)
                   first
@@ -28,4 +28,3 @@
 
 
 ;; (-main)
-
